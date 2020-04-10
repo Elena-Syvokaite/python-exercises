@@ -2,5 +2,18 @@
 # print out whether this string is a palindrome or not. 
 # (A palindrome is a string that reads the same forwards and backwards.)
 
-string = "hello"
-string2 = "Bye"
+user_string = input('Type in any word: ')
+
+x = []
+y = []
+
+for letter in user_string:
+     x.append(letter)
+
+for letter in reversed(user_string):
+    y.append(letter)
+
+if x == y:
+    print('Palindrome!')
+else:
+    print('Not a palindrome.')
