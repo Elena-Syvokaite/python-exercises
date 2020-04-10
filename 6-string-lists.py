@@ -5,10 +5,11 @@
 user_string = input('Type in any word: ')
 
 x = []
-y = []
 
 for letter in user_string:
      x.append(letter)
+
+y = []
 
 for letter in reversed(user_string):
     y.append(letter)
